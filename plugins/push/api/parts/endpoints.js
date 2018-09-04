@@ -9,7 +9,7 @@ var common          = require('../../../../api/utils/common.js'),
     C               = require('./credentials.js'),
     S               = require('./store.js'),
     moment          = require('moment-timezone'),
-    momenttz        = require('moment-timezone'),
+    //momenttz        = require('moment-timezone'),
     N               = require('./note.js'),
     jobs            = require('../../../../api/parts/jobs'),
     plugins         = require('../../../pluginManager.js'),
@@ -480,8 +480,6 @@ function catchy(f) {
                     return [{error: 'autoOnEntry is required for auto messages'}];
                 }
             }
-        } else if (data.tx) {
-
         }
 
         if (!skipAppsPlatforms && prepared) {

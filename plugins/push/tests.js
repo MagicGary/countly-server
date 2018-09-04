@@ -1,7 +1,6 @@
 'use strict';
 
 /* jshint undef: true, unused: true */
-/* globals it, describe */
 
 // var request = require('supertest');
 
